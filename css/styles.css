@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	margin-top: -20px ;
+	background-color: white;
+	position: fixed;
+}
+.logo{
+	width: 30%;
+	float: left;
+	text-align: left;
+	line-height: 70px;
+}
+.logo a{
+	font-size: 40px;
+	font-weight: 
+	font-family: "Pacifico";
+	color: #BA732D;
+	letter-spacing: 5px;
+}
+nav{
+	float: right;
+	line-height: 1px;
+}
+nav{
+	text-decoration: none;
+	font-family: 'Poppins';
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: white;
+	padding: 36px 60px;
+	margin: 0 1px;
+}
+nav a{
+	color: #BA732D;
+	font-weight: bold;
+}
+nav a: hover{
+	background-color: #5E2902;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 10px;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: black;
+	transition: all 0.3s ease 0s;
+	color: white;
+}
+.card2 h3:hover {
+	background-color: rgba(30, 30, 30, 0.2);
+}
+.card2 img:hover {
+	width: 230px;
+	transition: all 1s ease;
+}
+.outro {
+	text-align: center;
+	letter-spacing: 20px;
+}
